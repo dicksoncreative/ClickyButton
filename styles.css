@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.button {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    border-radius: 20px;
+    height: 100px;
+    left: 100px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    background-color: #DDDDFF;
+}
+
+#one   { top: 100px; }
+#two   { top: 225px; }
+#three { top: 350px; }
+#four  { top: 475px; }
+
+.button p {
+    font-family: "Helvetica Neue", Helvetica, Arial, SansSerif;
+    font-size: 24px;
+    text-align: center;
+}
